@@ -14,7 +14,7 @@ description              : &description "personal description"
 url                      : https://DanSchuurman.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "DanSchuurman/DanSchuurman.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : image-alignment-1200x4002.jpg
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Schuurman"
-  avatar           : "profile.png"
+  avatar           : "not_profile.jpeg"
   bio              : "Agricultural Economist"
   location         : "Davis, CA"
   employer         :
   pubmed           : 
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=lvBFBcEAAAAJ&hl=en&authuser=1"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
