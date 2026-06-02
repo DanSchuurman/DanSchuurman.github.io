@@ -12,22 +12,10 @@ redirect_from:
 I am an agricultural economist with interests in risk, environmental change, and econometrics. My current research focuses on the estimation and forecasting of land use responses to environmental change and methods for empirically measuring adaptation.
 
 
+<p>Collections:</p>
 
-<section class="section-light">
-<div class="section-inner">
-
-<h2>Working Papers</h2>
-
-<ul>
-{% assign papers = site.workingpapers | sort: 'date' | reverse %}
-{% for paper in papers %}
-  <li>
-    <a href="{{ paper.url | relative_url }}">
-      {{ paper.title }}
-    </a>
-  </li>
+{% for collection in site.collections %}
+  <p>{{ collection.label }}</p>
 {% endfor %}
-</ul>
 
-</div>
-</section>
+
