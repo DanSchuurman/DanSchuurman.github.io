@@ -35,12 +35,6 @@ I am an agricultural economist with interests in risk, environmental change, and
     </p>
   {% endif %}
 
-  {% if paper.excerpt %}
-    <p style="margin: 0.5em 0 0 0; font-size: 0.95em;">
-      {{ paper.excerpt }}
-    </p>
-  {% endif %}
-
   {% if paper.content %}
     <p style="margin: 0.5em 0 0 0;">
       {{ paper.content }}
@@ -78,12 +72,6 @@ I am an agricultural economist with interests in risk, environmental change, and
     </p>
   {% endif %}
 
-  {% if paper.excerpt %}
-    <p style="margin: 0.5em 0 0 0; font-size: 0.95em;">
-      {{ paper.excerpt }}
-    </p>
-  {% endif %}
-
   {% if paper.content %}
     <p style="margin: 0.5em 0 0 0;">
       {{ paper.content }}
@@ -93,21 +81,6 @@ I am an agricultural economist with interests in risk, environmental change, and
 </div>
 
 {% endfor %}
-
-</div>
-</section>
-
-
-<section class="section-dark">
-<div class="section-inner">
-
-<h2>Education</h2>
-
-<ul>zs
-<li>PhD, University of California, Davis (Expected 2027) </li>
-<li>MSc, University of Guelph, 2021 </li>
-<li>BSc, University of Waterloo, 2019 </li>
-</ul>
 
 </div>
 </section>
@@ -135,16 +108,18 @@ I am an agricultural economist with interests in risk, environmental change, and
 </div>
 </section>
 
-
 <section class="section-dark">
 <div class="section-inner">
 
 <h2>Education</h2>
 
-<ul>
-<li>PhD, University X</li>
-<li>BA, University Y</li>
+<ul>zs
+<li>PhD, University of California, Davis (Expected 2027) </li>
+<li>MSc, University of Guelph, 2021 </li>
+<li>BSc, University of Waterloo, 2019 </li>
 </ul>
 
 </div>
 </section>
+
+
