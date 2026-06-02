@@ -1,7 +1,7 @@
 ---
 title: "To what extent can long-differencing capture adaptation"
-collection: workingpapers
-permalink: /workingpapers/longdifferences
+collection: worksinprogress
+permalink: /worksinprogress/longdifferences
 excerpt: 
 date: 
 authors: 'Daniel Schuurman'
