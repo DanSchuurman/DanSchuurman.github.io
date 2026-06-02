@@ -1,7 +1,7 @@
 ---
-layout: archive
-title: "Sitemap"
-permalink: /sitemap/
+layout: single
+title: "Teaching"
+permalink: /teaching/
 author_profile: true
 ---
 

@@ -70,6 +70,11 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+# Added in to try custom colors
+minimal_mistakes_skin: default
+
+head_scripts:
+  - /assets/css/custom.css
 
 # Analytics
 analytics:
