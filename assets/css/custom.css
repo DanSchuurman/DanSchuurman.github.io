@@ -18,3 +18,15 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+
+.section-light,
+.section-white,
+.section-dark {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
