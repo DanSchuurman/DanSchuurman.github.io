@@ -2,11 +2,10 @@
 title: "Heterogeneity, Yield Distributions, and Climate Change: Implications for Solvency of Crop Insurance Programs"
 collection: publications
 permalink: /publication/2024-AJAE
-excerpt: 'not sure about this info'
-date: 2009-10-01
+excerpt: 'AAEA Applied Risk Analysis Best Paper Award (2025)'
+date: 2024-02-07
 venue: 'American Journal of Agricultural Economics'
 paperurl: 'https://doi.org/10.1111/ajae.12446'
-citation: 'Schuurman, Daniel and Ker, Alan. &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
 Climate change continues to fuel concern about the future cost of publicly-subsidized

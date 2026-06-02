@@ -1,17 +1,15 @@
 ---
-title: "Heterogeneity, Yield Distributions, and Climate Change: Implications for Solvency of Crop Insurance Programs"
+title: "To what extent can long-differencing capture adaptation"
 collection: workingpapers
-permalink: /workingpapers/jmp
-excerpt: 'not sure about this info'
-date: 2026-01-01
-authors: 'Daniel Schuurman, Alan Ker'
-venue: 'American Journal of Agricultural Economics'
-paperurl: 'https://doi.org/10.1111/ajae.12446'
-citation: 'Schuurman, Daniel and Ker, Alan. &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /workingpapers/longdifferences
+excerpt: 
+date: 
+authors: 'Daniel Schuurman'
+venue: 
+paperurl: 'link to my file'
+
 ---
 
-Climate change continues to fuel concern about the future cost of publicly-subsidized
-crop insurance programs in developed nations. These climate changes are expected to
-alter the upper and lower tails of crop yield distributions differently. This may best be captured by modeling the climate-yield relationship heterogeneously across different parts of the yield distribution. To this end, we consider a mixture model with the component probabilities expressed as nonparametric functions (to capture non-linearities) of weather variables estimated by machine learning methods (neural net). By doing so, we are able to identify possibly heterogeneous effects of climate change on each component, the mixing probabilities, and thus all moments of the yield distribution. We find changing climate alters, quite significantly, the entire shape of the yield distribution. The overall mass of the lower tail tends to increase as temperatures rise, to the point where some yield distributions even become positively skewed. Under the most probable climate scenario (RCP 4.5), the effect of climate on expected losses is small; positive in the short term and negative in the long-term. Importantly, we find differing rates of technological change to consistently raise insurance costs with quicker rates of temperature, relative to the rate of technological change, ameliorating this effect. Overall, the resulting insurance costs from climate are considerably less drastic than previous work due to heterogeneous effects across the yield distribution raising the probability of lower component yields and slowing the rate of technology
+Understanding the degree to which we are able to adapt to climate change is cen- tral to economic assessments of future climate damages. Social scientists increasingly use comparisons between long-difference and panel fixed effects estimators to measure climate adaptation. Despite their empirical relevance, there is no formal framework to assess the extent to which these comparisons are valid. We demonstrate two limitations of this empirical strategy. First, standard implementations of these estimators yield biased estimates of both long-run and short-run population parameters. Second, the direction of this bias may substantially underestimate adaptation. We illustrate the empirical relevance of our theoretical results in an empirically-calibrated simulation design and an empirical application.
 
 

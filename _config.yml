@@ -195,6 +195,10 @@ collections:
   workingpapers:
     output: true
     permalink: /:collection/:path/
+  worksinprogress:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
