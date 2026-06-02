@@ -1,9 +1,9 @@
 ---
 title: "Heterogeneity, Yield Distributions, and Climate Change: Implications for Solvency of Crop Insurance Programs"
 collection: workingpapers
-permalink: /workingpapers/2024-AJAE
+permalink: /workingpapers/jmp
 excerpt: 'not sure about this info'
-date: 2009-10-01
+date: 2026-01-01
 authors: 'Daniel Schuurman, Alan Ker'
 venue: 'American Journal of Agricultural Economics'
 paperurl: 'https://doi.org/10.1111/ajae.12446'
