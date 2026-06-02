@@ -4,17 +4,12 @@ title: ""
 excerpt: "About me"
 author_profile: true
 
-header:
-  image: /images/header.jpg
-  caption: "Photo: Yosemite National Park"
-
-
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am an agricultural economist with interests in risk, environmental change, and econometrics. My current research ...
+I am an agricultural economist with interests in risk, environmental change, and econometrics. My current research focuses on the estimation and forecasting of land use responses to environmental change and methods for empirically measuring adaptation.
 
 <section class="section-light">
 <div class="section-inner">
@@ -54,3 +49,14 @@ BA, University Y
 </div>
 </section>
 
+<section class="section-light">
+<div class="section-inner" markdown="1">
+
+## Working Papers
+
+Paper A
+
+Paper B
+
+</div>
+</section>
