@@ -53,7 +53,7 @@ I am an agricultural economist with interests in risk, environmental change, and
 
 <h2>Research in Progress </h2>
 
-{% assign papers = site.worksingprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
+{% assign papers = site.worksinprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
 
 {% for paper in papers %}
 
