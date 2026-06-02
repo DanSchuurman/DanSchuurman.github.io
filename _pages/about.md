@@ -16,20 +16,40 @@ I am an agricultural economist with interests in risk, environmental change, and
 
 <h2>Working Papers</h2>
 
-<ul>
 {% assign papers = site.workingpapers | where_exp: "p", "p.title" | sort: "date" | reverse %}
 
 {% for paper in papers %}
-  <li>
-    <a href="{{ paper.url | relative_url }}">
-      {{ paper.title }}
-    </a>
-    {% if paper.date %}
-      <small> ({{ paper.date | date: "%Y" }})</small>
+
+<div style="margin-bottom: 2rem;">
+
+  <p style="margin: 0;">
+    <strong>{{ paper.title }}</strong>
+    {% if paper.paperurl %}
+      — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
     {% endif %}
-  </li>
+  </p>
+
+  {% if paper.authors %}
+    <p style="margin: 0; font-size: 0.95em;">
+      {{ paper.authors }}
+    </p>
+  {% endif %}
+
+  {% if paper.excerpt %}
+    <p style="margin: 0.5em 0 0 0; font-size: 0.95em;">
+      {{ paper.excerpt }}
+    </p>
+  {% endif %}
+
+  {% if paper.content %}
+    <p style="margin: 0.5em 0 0 0;">
+      {{ paper.content }}
+    </p>
+  {% endif %}
+
+</div>
+
 {% endfor %}
-</ul>
 
 </div>
 </section>
