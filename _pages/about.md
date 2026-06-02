@@ -49,14 +49,23 @@ BA, University Y
 </div>
 </section>
 
+
+
 <section class="section-light">
-<div class="section-inner" markdown="1">
+<div class="section-inner">
 
-## Working Papers
+<h2>Working Papers</h2>
 
-Paper A
-
-Paper B
+<ul>
+{% assign papers = site.workingpapers | sort: 'date' | reverse %}
+{% for paper in papers %}
+  <li>
+    <a href="{{ paper.url | relative_url }}">
+      {{ paper.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 </div>
 </section>
