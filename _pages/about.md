@@ -54,6 +54,65 @@ I am an agricultural economist with interests in risk, environmental change, and
 </div>
 </section>
 
+<section class="section-light">
+<div class="section-inner">
+
+<h2>Works in Progress </h2>
+
+{% assign papers = site.worksingprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
+
+{% for paper in papers %}
+
+<div style="margin-bottom: 2rem;">
+
+  <p style="margin: 0;">
+    <strong>{{ paper.title }}</strong>
+    {% if paper.paperurl %}
+      — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
+    {% endif %}
+  </p>
+
+  {% if paper.authors %}
+    <p style="margin: 0; font-size: 0.95em;">
+      {{ paper.authors }}
+    </p>
+  {% endif %}
+
+  {% if paper.excerpt %}
+    <p style="margin: 0.5em 0 0 0; font-size: 0.95em;">
+      {{ paper.excerpt }}
+    </p>
+  {% endif %}
+
+  {% if paper.content %}
+    <p style="margin: 0.5em 0 0 0;">
+      {{ paper.content }}
+    </p>
+  {% endif %}
+
+</div>
+
+{% endfor %}
+
+</div>
+</section>
+
+
+<section class="section-dark">
+<div class="section-inner">
+
+<h2>Education</h2>
+
+<ul>zs
+<li>PhD, University of California, Davis (Expected 2027) </li>
+<li>MSc, University of Guelph, 2021 </li>
+<li>BSc, University of Waterloo, 2019 </li>
+</ul>
+
+</div>
+</section>
+
+
 
 <section class="section-white">
 <div class="section-inner">
