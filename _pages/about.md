@@ -19,9 +19,11 @@ I am an agricultural economist with interests in risk, environmental change, and
 <section class="section-light">
 <div class="section-inner">
 
-# Working Papers
+## Working Papers
 
 Paper A
+
+others
 
 Paper B
 
@@ -31,7 +33,7 @@ Paper B
 <section class="section-white">
 <div class="section-inner">
 
-# Publications
+## Publications
 
 Publication A
 
@@ -43,7 +45,7 @@ Publication B
 <section class="section-dark">
 <div class="section-inner">
 
-# Education
+## Education
 
 PhD, University X
 
