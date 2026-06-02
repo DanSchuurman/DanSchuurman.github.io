@@ -3,7 +3,7 @@ title: "To what extent can long-differencing capture adaptation"
 collection: worksinprogress
 permalink: /worksinprogress/longdifferences
 excerpt: 
-date: 2026-09
+date: 2026-09-01
 authors: 'Daniel Schuurman'
 venue: 
 paperurl: 'link to my file'
