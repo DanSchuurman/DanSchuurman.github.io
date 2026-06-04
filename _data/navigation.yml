@@ -6,6 +6,6 @@ main:
   - title: "CV"
     url: /cv/
     
-
-  - title: "About Me"
-    url: /about_me/
+  - title: "Extension"
+    url: /extension/
+    

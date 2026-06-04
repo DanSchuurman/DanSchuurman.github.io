@@ -113,7 +113,7 @@ I am an agricultural economist with interests in risk, environmental change, and
 
 <h2>Education</h2>
 
-<ul>zs
+<ul>
 <li>PhD, University of California, Davis (Expected 2027) </li>
 <li>MSc, University of Guelph, 2021 </li>
 <li>BSc, University of Waterloo, 2019 </li>
