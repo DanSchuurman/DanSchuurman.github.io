@@ -11,7 +11,7 @@ title                    : "Daniel Schuurman"
 title_separator          : "-"
 name                     : &name "Daniel Schuurman"
 description              : &description "personal description"
-url                      : https://DanSchuurman.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://DanSchuurman.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "DanSchuurman/DanSchuurman.github.io"
 teaser                   : image-alignment-1200x4002.jpg
@@ -86,7 +86,7 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Schuurman"
-  avatar           : "not_profile.jpeg"
+  avatar           : "profile_2.jpeg"
   bio              : "Agricultural Economist"
   location         : "Davis, CA"
   employer         :
