@@ -5,12 +5,43 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{[author.googlescholar](https://scholar.google.com/citations?user=lvBFBcEAAAAJ&hl=en&authuser=1)}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<section class="section-white">
+<div class="section-inner">
+
+<h2>Publications</h2>
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+
+{% for pub in pubs %}
+  <div style="margin-bottom: 2rem;">
+    <h3 style="margin: 0 0 0.25rem 0;">
+      <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+    </h3>
+
+    {% if pub.venue or pub.date %}
+      <p style="margin: 0 0 0.5rem 0; font-size: 0.95em; color: #555;">
+        {% if pub.venue %}{{ pub.venue }}{% endif %}
+        {% if pub.venue and pub.date %}, {% endif %}
+        {% if pub.date %}{{ pub.date | date: "%Y" }}{% endif %}
+      </p>
+    {% endif %}
+
+    {% if pub.excerpt %}
+      <p style="margin: 0 0 0.5rem 0;">{{ pub.excerpt }}</p>
+    {% elsif pub.content %}
+      <p style="margin: 0 0 0.5rem 0;">{{ pub.content | strip_html | truncate: 250 }}</p>
+    {% endif %}
+
+    {% if pub.paperurl %}
+      <p style="margin: 0;">
+        <a href="{{ pub.paperurl }}" target="_blank">Read paper</a>
+      </p>
+    {% endif %}
+  </div>
 {% endfor %}
+
+</div>
+</section>
+
