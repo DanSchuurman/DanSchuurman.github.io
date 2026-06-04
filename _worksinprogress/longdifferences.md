@@ -4,9 +4,9 @@ collection: worksinprogress
 permalink: /worksinprogress/longdifferences
 excerpt: 
 date: 2026-09-01
-authors: 'Daniel Schuurman'
+authors: 'with Dalia Ghanem and Felix Pretis'
 venue: 
-paperurl: 'link to my file'
+paperurl: ''
 
 ---
 
