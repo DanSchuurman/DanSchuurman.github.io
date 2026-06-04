@@ -108,7 +108,7 @@ I am an agricultural economist with interests in risk, environmental change, and
 </div>
 </section>
 
-<section style="background: #e8f1ff; color: #0d1f44;">
+<section class="section-dark">
 <div class="section-inner">
 
 <h2>Education</h2>

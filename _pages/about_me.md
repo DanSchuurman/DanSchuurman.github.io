@@ -11,8 +11,13 @@ Put in background ehre
 Heading 1
 ======
 
-Heading 2
-======
+
+## Agriculture Background
+
+I grew up on a dairy farm in Ontario, Canada. 
 
 
-![A couple of nosy heifers (2022)](/images/nosy_heifers.JPG)
+<figure>
+  <img src="/images/nosy_heifers.JPG" alt="A couple of our nosy heifers (2022)">
+  <figcaption>A couple of nosy heifers (photo taken in 2022)</figcaption>
+</figure>
