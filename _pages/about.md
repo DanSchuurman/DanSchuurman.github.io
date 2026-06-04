@@ -92,9 +92,9 @@ I am an agricultural economist with interests in risk, environmental change, and
 
 <h2>Publications</h2>
 
-<ul>
+<ul style="list-style: none; margin: 0; padding: 0;">
 {% for pub in site.publications %}
-  <li>
+  <li style="margin-bottom: 0.75rem;">
     <a href="{{ pub.url | relative_url }}">
       {{ pub.title }}
     </a>
