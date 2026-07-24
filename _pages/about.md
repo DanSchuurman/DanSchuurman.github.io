@@ -10,7 +10,7 @@ redirect_from:
 ---
 I am a PhD student at UC Davis in the Agriculture and Resource Economics Department. 
 
-In my research, I study risk, climate change, and econometrics. My current research focuses on the estimation and forecasting of land use responses to environmental change, methods for empirically measuring adaptation, and externalities associated with pesticides.
+In my research, I study risk, climate change, and econometrics. My current research focuses on the estimation and forecasting of land use responses to environmental change, methods for empirically measuring adaptation, and externalities associated with pesticide use.
 
 
  I am on the <b> 2026-2027 <b> job market
