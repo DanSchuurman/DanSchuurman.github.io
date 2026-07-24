@@ -14,42 +14,6 @@ I am an agricultural economist with interests in risk, environmental change, and
 <section class="section-light">
 <div class="section-inner">
 
-<h2>Working Papers</h2>
-
-{% assign papers = site.workingpapers | where_exp: "p", "p.title" | sort: "date" | reverse %}
-
-{% for paper in papers %}
-
-<div style="margin-bottom: 2rem;">
-
-  <p style="margin: 0;">
-    <strong>{{ paper.title }}</strong>
-    {% if paper.paperurl %}
-      — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
-    {% endif %}
-  </p>
-
-  {% if paper.authors %}
-    <p style="margin: 0; font-size: 0.95em;">
-      {{ paper.authors }}
-    </p>
-  {% endif %}
-
-  {% if paper.content %}
-    <p style="margin: 0.5em 0 0 0;">
-      {{ paper.content }}
-    </p>
-  {% endif %}
-
-</div>
-
-{% endfor %}
-
-</div>
-</section>
-
-<section class="section-light">
-<div class="section-inner">
 
 <h2>Research in Progress </h2>
 
