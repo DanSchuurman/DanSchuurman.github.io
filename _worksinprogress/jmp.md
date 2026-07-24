@@ -3,7 +3,7 @@ title: "Yesterday Matters: Accounting for Feedback in Acreage Responses to Clima
 collection: workingpapers
 permalink: /workingpapers/jmp
 excerpt: 'Job market paper'
-date: 2026-07-01
+date: 2026-09-01
 authors: ''
 venue: 
 paperurl: 

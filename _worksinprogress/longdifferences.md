@@ -3,7 +3,7 @@ title: "To what extent can long-differencing capture adaptation"
 collection: worksinprogress
 permalink: /worksinprogress/longdifferences
 excerpt: 
-date: 2026-09-01
+date: 2026-08-01
 authors: 'with Dalia Ghanem and Felix Pretis'
 venue: 
 paperurl: 

@@ -3,7 +3,7 @@ title: "Pesticide Drift and Prenatal Development: Evidence of health impacts of 
 collection: worksinprogress
 permalink: /worksinprogress/infanthealth
 excerpt: 
-date: 2026-09-01
+date: 2026-07-01
 authors: 'with Rachael Goodhue'
 venue: 
 paperurl: 
