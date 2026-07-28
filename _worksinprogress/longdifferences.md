@@ -1,5 +1,5 @@
 ---
-title: "To what extent can long-differencing capture adaptation"
+title: "To what extent can long-differencing capture adaptation?"
 collection: worksinprogress
 permalink: /worksinprogress/longdifferences
 excerpt: 
