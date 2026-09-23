@@ -55,30 +55,47 @@ I am an economist and PhD candidate at UC Davis. My research is at the intersect
 </section>
 
 
-
 <section class="section-white">
 <div class="section-inner">
 
 <h2>Publications</h2>
 
-<ul style="list-style: none; margin: 0; padding: 0;">
-{% for pub in site.publications %}
-  <li style="margin-bottom: 0.75rem;">
-    <a href="{{ pub.url | relative_url }}">
-      {{ pub.title }}
-    </a>
-    {% if pub.venue %}
-      — {{ pub.venue }}
+{% assign pubs = site.publications | where_exp: "p", "p.title" | sort: "date" | reverse %}
+
+{% for paper in pubs %}
+
+<details style="margin-bottom: 1.5rem;">
+
+  <summary style="cursor: pointer;">
+    <strong>{{ paper.title }}</strong>
+    {% if paper.paperurl %}
+      — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
     {% endif %}
-  </li>
+    {% if paper.venue %}
+      — <span style="font-size: 0.95em; font-weight: normal;">{{ paper.venue }}</span>
+    {% endif %}
+    {% if paper.authors %}
+      <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
+    {% endif %}
+  </summary>
+
+  <div style="margin: 0.75em 0 0 0;">
+
+  {% if paper.content %}
+    <p style="margin: 0;">
+      {{ paper.content }}
+    </p>
+  {% endif %}
+
+
+  </div>
+
+</details>
+
 {% endfor %}
-</ul>
 
 </div>
 </section>
-
-<section class="section-dark">
-<div class="section-inner">
 
 <h2>Education</h2>
 
