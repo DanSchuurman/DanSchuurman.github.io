@@ -3,7 +3,7 @@ title: "Business risk management programs and the adoption of beneficial managem
 collection: publications
 permalink: /publication/delaporte
 date: 2024-01-24
-venue: 'Canadian Journal of Agricultural Economics'
+venue: 'Canadian Journal of Agricultural Economics (2024)'
 paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1111/cjag.12349'
 ---
 
