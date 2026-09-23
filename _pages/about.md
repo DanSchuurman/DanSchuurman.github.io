@@ -24,7 +24,7 @@ Before UC Davis, I earned my bachelor's degree at the University of Waterloo and
 <br>
 <br>
 
-<div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; clear: both; padding-top: 2rem;">
+<div style="width: 90vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; clear: both; padding-top: 2rem;">
   
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
 
