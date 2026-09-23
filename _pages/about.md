@@ -21,11 +21,10 @@ Before UC Davis, I earned my bachelor's degree at the University of Waterloo and
 
 <br>
 
-<div style="width: 100vw; position: relative; left: calc(50% - 50vw); right: calc(50% - 50vw); margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); background-color: #ffffff; z-index: 10; padding: 2rem 0; box-sizing: border-box;">
-  
-  <!-- Inner container to keep your content neatly centered and readable -->
-  <div style="max-width: 1100px; margin: 0 auto; padding: 0 2rem;">
+<div style="background-color: #ffffff; position: relative; z-index: 10; padding: 2rem 0; margin-top: 2rem; border-radius: 4px;">
 
+  <!-- Inner container: adjust max-width to make it as wide as you want -->
+  <div style="max-width: 1100px; margin: 0 auto; padding: 0 1.5rem;">
     <section class="section-light">
     <div class="section-inner">
 
