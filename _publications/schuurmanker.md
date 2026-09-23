@@ -6,7 +6,9 @@ excerpt: 'AAEA Applied Risk Analysis Best Paper Award (2025)'
 date: 2024-02-07
 venue: 'American Journal of Agricultural Economics (2025)'
 paperurl: 'https://doi.org/10.1111/ajae.12446'
+authors: with Alan Ker
 ---
+Best Paper Award from the Applied Risk Analysis Section of the AAEA (2025)
 
 Climate change continues to fuel concern about the future cost of publicly-subsidized
 crop insurance programs in developed nations. These climate changes are expected to
