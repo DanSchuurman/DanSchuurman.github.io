@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-AJAE
 excerpt: 'AAEA Applied Risk Analysis Best Paper Award (2025)'
 date: 2024-02-07
-venue: 'American Journal of Agricultural Economics'
+venue: 'American Journal of Agricultural Economics (2025)'
 paperurl: 'https://doi.org/10.1111/ajae.12446'
 ---
 
