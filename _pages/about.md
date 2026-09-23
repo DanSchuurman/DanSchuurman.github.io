@@ -19,7 +19,6 @@ Before UC Davis, I earned my bachelor's degree at the University of Waterloo and
 
 
 
-<br>
 
 <!-- Research Section wrapper (aligned with main content, no weird left shift) -->
 <div style="background-color: #ffffff; position: relative; z-index: 10; padding: 2rem 0; margin-top: 2rem; border-radius: 4px;">
