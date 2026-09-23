@@ -7,10 +7,22 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an economist and PhD candidate at UC Davis. My research is at the intersection of agriculture and environmental economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use.
+
+
+
+<br>
+<br>
+<br>
+I am an economist and PhD candidate in the Agriculture and Resource Economics Department at UC Davis. My research is at the intersection of econometrics and agricultural economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use. 
+
+Before UC Davis, I earned my bachelor's degree at the University of Waterloo and my master's degree in Food, Agriculture and Resource Economics at the University of Guelph. 
 
 **I am on the job market in the 2026-2027 academic year.**
 
+
+
+<br>
+<br>
 
 <div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; clear: both; padding-top: 2rem;">
   
