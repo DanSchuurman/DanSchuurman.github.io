@@ -8,12 +8,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD student at UC Davis in the Agriculture and Resource Economics Department. 
+I am an economist working at the intersection of agriculture and environmental economics. My current research focuses on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use.
 
-In my research, I study risk, climate change, and econometrics. My current research focuses on the estimation and forecasting of land use responses to environmental change, methods for empirically measuring adaptation, and externalities associated with pesticide use.
-
-
- I am currently on the 2026-2027 job market.
+**I am on the job market in the 2026-2027 academic year.**
 
 <section class="section-light">
 <div class="section-inner">
