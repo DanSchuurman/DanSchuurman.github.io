@@ -21,7 +21,7 @@ Before UC Davis, I earned my bachelor's degree at the University of Waterloo and
 
 
 <!-- Research Section wrapper (aligned with main content, no weird left shift) -->
-<div style="width: 100vw; position: relative; left: calc(-1 * (50vw - 50%)); background-color: #ffffff; z-index: 10; padding: 2rem 0; box-sizing: border-box;">
+<div style="width: 100vw; position: relative; left: calc(-1 * (60vw - 50%)); background-color: #ffffff; z-index: 10; padding: 2rem 0; box-sizing: border-box;">
   
   <!-- Inner container to keep your text/images neatly aligned -->
   <div style="max-width: 1100px; margin: 0 auto; padding: 0 2rem;">
