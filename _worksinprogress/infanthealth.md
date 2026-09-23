@@ -1,5 +1,5 @@
 ---
-title: "Pesticide Drift and Prenatal Development: Evidence of health impacts of pesticide exposure from 5 million births"
+title: "Pesticide Drift and Prenatal Development: Evidence from 5 million births"
 collection: worksinprogress
 permalink: /worksinprogress/infanthealth
 excerpt: 
