@@ -95,8 +95,6 @@ I am an economist and PhD candidate at UC Davis. My research is at the intersect
 
 {% endfor %}
 
-</div>
-</section>
 
 <h2>Education</h2>
 
