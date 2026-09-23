@@ -12,7 +12,7 @@ Projections of the potential impacts of climate change on agricultural systems a
 
 
 <div style="display: flex; gap: 1rem; justify-content: center; align-items: flex-start; margin-top: 1.5rem; flex-wrap: nowrap;">
-  <img src="/images/ssp585_static_map_2023_2050.gif" alt="SSP5-8.5 Static projections" style="width: 33%; height: auto; border-radius: 4px;">
-  <img src="/images/ssp585_dynamic_map_2023_2050.gif" alt="SSP5-8.5 Dynamic projections" style="width: 33%; height: auto; border-radius: 4px;">
-  <img src="/images/ssp585_diff_map_2023_2050.gif" alt="Difference of Static and Dynamic projections" style="width: 33%; height: auto; border-radius: 4px;">
+  <img src="/images/ssp585_static_map_2023_2050.gif" alt="SSP5-8.5 Static projections" style="width: 33%; height: auto; border-radius: 2px;">
+  <img src="/images/ssp585_dynamic_map_2023_2050.gif" alt="SSP5-8.5 Dynamic projections" style="width: 33%; height: auto; border-radius: 2px;">
+  <img src="/images/ssp585_diff_map_2023_2050.gif" alt="Difference of Static and Dynamic projections" style="width: 33%; height: auto; border-radius: 2px;">
 </div>
