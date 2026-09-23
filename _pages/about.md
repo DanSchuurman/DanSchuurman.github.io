@@ -15,35 +15,39 @@ I am an economist and PhD candidate at UC Davis. My research is at the intersect
 <section class="section-light">
 <div class="section-inner">
 
-
-<h2>Research in Progress </h2>
+<h2>Research in Progress</h2>
 
 {% assign papers = site.worksinprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
 
 {% for paper in papers %}
 
-<div style="margin-bottom: 2rem;">
+<details style="margin-bottom: 1.5rem;">
 
-  <p style="margin: 0;">
+  <summary style="cursor: pointer;">
     <strong>{{ paper.title }}</strong>
     {% if paper.paperurl %}
       — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
     {% endif %}
-  </p>
+    {% if paper.authors %}
+      <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
+    {% endif %}
+  </summary>
 
-  {% if paper.authors %}
-    <p style="margin: 0; font-size: 0.95em;">
-      {{ paper.authors }}
-    </p>
-  {% endif %}
+  <div style="margin: 0.75em 0 0 0;">
 
   {% if paper.content %}
-    <p style="margin: 0.5em 0 0 0;">
+    <p style="margin: 0;">
       {{ paper.content }}
     </p>
   {% endif %}
 
-</div>
+  {% if paper.gif %}
+    <img src="{{ paper.gif }}" alt="{{ paper.title }} findings" style="max-width: 100%; margin-top: 1em; border-radius: 4px;">
+  {% endif %}
+
+  </div>
+
+</details>
 
 {% endfor %}
 
