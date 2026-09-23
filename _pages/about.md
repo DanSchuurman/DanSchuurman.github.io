@@ -72,7 +72,7 @@ I am an economist and PhD candidate at UC Davis. My research is at the intersect
       — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
     {% endif %}
     {% if paper.venue %}
-      — <span style="font-size: 0.95em; font-weight: normal;">{{ paper.venue }}</span>
+      <br><em style="font-size: 0.95em; font-weight: normal;">{{ paper.venue }}</em>
     {% endif %}
     {% if paper.authors %}
       <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
@@ -86,6 +86,7 @@ I am an economist and PhD candidate at UC Davis. My research is at the intersect
       {{ paper.content }}
     </p>
   {% endif %}
+
 
 
   </div>
