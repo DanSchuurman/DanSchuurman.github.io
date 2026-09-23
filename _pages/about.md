@@ -3,7 +3,6 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
-
 redirect_from:
   - /about/
   - /about.html
@@ -12,100 +11,103 @@ I am an economist and PhD candidate at UC Davis. My research is at the intersect
 
 **I am on the job market in the 2026-2027 academic year.**
 
-<section class="section-light">
-<div class="section-inner">
 
-<h2>Research in Progress</h2>
+<div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; clear: both; padding-top: 2rem;">
+  
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
 
-{% assign papers = site.worksinprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
+    <section class="section-light">
+    <div class="section-inner">
 
-{% for paper in papers %}
+    <h2>Research in Progress</h2>
 
-<details style="margin-bottom: 1.5rem;">
+    {% assign papers = site.worksinprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
 
-  <summary style="cursor: pointer;">
-    <strong>{{ paper.title }}</strong>
-    {% if paper.paperurl %}
-      — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
-    {% endif %}
-    {% if paper.authors %}
-      <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
-    {% endif %}
-  </summary>
+    {% for paper in papers %}
 
-  <div style="margin: 0.75em 0 0 0;">
+    <details style="margin-bottom: 1.5rem;">
 
-  {% if paper.content %}
-    <p style="margin: 0;">
-      {{ paper.content }}
-    </p>
-  {% endif %}
+      <summary style="cursor: pointer;">
+        <strong>{{ paper.title }}</strong>
+        {% if paper.paperurl %}
+          — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
+        {% endif %}
+        {% if paper.authors %}
+          <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
+        {% endif %}
+      </summary>
 
-  {% if paper.gif %}
-    <img src="{{ paper.gif }}" alt="{{ paper.title }} findings" style="max-width: 100%; margin-top: 1em; border-radius: 4px;">
-  {% endif %}
+      <div style="margin: 0.75em 0 0 0;">
 
-  </div>
+      {% if paper.content %}
+        <p style="margin: 0;">
+          {{ paper.content }}
+        </p>
+      {% endif %}
 
-</details>
+      {% if paper.gif %}
+        <img src="{{ paper.gif }}" alt="{{ paper.title }} findings" style="max-width: 100%; margin-top: 1em; border-radius: 4px;">
+      {% endif %}
 
-{% endfor %}
+      </div>
 
-</div>
-</section>
+    </details>
 
+    {% endfor %}
 
-<section class="section-white">
-<div class="section-inner">
-
-<h2>Publications</h2>
-
-{% assign pubs = site.publications | where_exp: "p", "p.title" | sort: "date" | reverse %}
-
-{% for paper in pubs %}
-
-<details style="margin-bottom: 1.5rem;">
-
-  <summary style="cursor: pointer;">
-    <strong>{{ paper.title }}</strong>
-    {% if paper.paperurl %}
-      — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
-    {% endif %}
-    {% if paper.venue %}
-      <br><em style="font-size: 0.95em; font-weight: normal;">{{ paper.venue }}</em>
-    {% endif %}
-    {% if paper.authors %}
-      <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
-    {% endif %}
-  </summary>
-
-  <div style="margin: 0.75em 0 0 0;">
-
-  {% if paper.content %}
-    <p style="margin: 0;">
-      {{ paper.content }}
-    </p>
-  {% endif %}
+    </div>
+    </section>
 
 
+    <section class="section-white">
+    <div class="section-inner">
 
-  </div>
+    <h2>Publications</h2>
 
-</details>
+    {% assign pubs = site.publications | where_exp: "p", "p.title" | sort: "date" | reverse %}
 
-{% endfor %}
+    {% for paper in pubs %}
 
+    <details style="margin-bottom: 1.5rem;">
 
-<h2>Education</h2>
+      <summary style="cursor: pointer;">
+        <strong>{{ paper.title }}</strong>
+        {% if paper.paperurl %}
+          — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
+        {% endif %}
+        {% if paper.venue %}
+          <br><em style="font-size: 0.95em; font-weight: normal;">{{ paper.venue }}</em>
+        {% endif %}
+        {% if paper.authors %}
+          <br><span style="font-size: 0.95em; font-weight: normal;">{{ paper.authors }}</span>
+        {% endif %}
+      </summary>
 
-<ul>
-<li>PhD, University of California, Davis (Expected 2027) </li>
-<li>MSc, University of Guelph, 2021 </li>
-<li>BSc, University of Waterloo, 2019 </li>
-</ul>
+      <div style="margin: 0.75em 0 0 0;">
 
-</div>
-</section>
+      {% if paper.content %}
+        <p style="margin: 0;">
+          {{ paper.content }}
+        </p>
+      {% endif %}
 
+      </div>
 
-    
+    </details>
+
+    {% endfor %}
+
+    <br>
+    <h2>Education</h2>
+
+    <ul>
+    <li>PhD, University of California, Davis (Expected 2027) </li>
+    <li>MSc, University of Guelph, 2021 </li>
+    <li>BSc, University of Waterloo, 2019 </li>
+    </ul>
+
+    </div>
+    </section>
+
+  </div> 
+</div> 
