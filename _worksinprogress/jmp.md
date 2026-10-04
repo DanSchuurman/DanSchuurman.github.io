@@ -19,7 +19,7 @@ Projections of the potential impacts of climate change on agricultural systems a
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   width: 100%;
-  max-width: 900px;
+  max-width: 450px; /* Reduced from 900px */
   margin: 2rem auto;
   position: relative;
   border-radius: 8px;
@@ -48,7 +48,7 @@ Projections of the potential impacts of climate change on agricultural systems a
 .slide img {
   width: 100%;
   height: auto;
-  max-height: 600px;
+  max-height: 300px; /* Reduced from 600px */
   object-fit: contain;
   display: block;
 }
@@ -60,9 +60,9 @@ Projections of the potential impacts of climate change on agricultural systems a
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff !important;
-  padding: 12px 16px;
+  padding: 8px 12px; /* Scaled down arrow padding */
   text-decoration: none !important;
-  font-size: 22px;
+  font-size: 16px; /* Scaled down arrow size */
   border-radius: 50%;
   user-select: none;
   transition: background-color 0.2s ease, transform 0.2s ease;
@@ -76,11 +76,11 @@ Projections of the potential impacts of climate change on agricultural systems a
 }
 
 .arrow.prev {
-  left: 15px;
+  left: 10px;
 }
 
 .arrow.next {
-  right: 15px;
+  right: 10px;
 }
 </style>
 
