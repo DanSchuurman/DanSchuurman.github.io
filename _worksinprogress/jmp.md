@@ -8,7 +8,81 @@ authors: 'Job market paper'
 venue: 
 paperurl: 
 ---
+
 Projections of the potential impacts of climate change on agricultural systems are crucial for developing climate policy. In a dynamic setting where outcomes are persistent, adjustments in response to climate change may be gradual rather than immediate. Using a dynamic panel model that accounts for feedback from lagged allocations, I identify considerable persistence in crop acreage allocations. This persistence has a first-order effect on how climate-change projections should be constructed. Future acreage allocations must account for the cumulative effect of climate along the entire transition path. Existing research often conducts projections using comparative-statics based on models that omit information on past acreage decisions. By disregarding the adjustment path, acreage projections under CMIP6 scenarios with static models overestimate acreage responses by 2050 by an average of 19% and 22% under moderate and high emissions scenarios.
+
+<style>
+/* Slider Container */
+.slider-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Slide Item */
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+/* Images */
+.slide img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Arrow Navigation */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff !important;
+  padding: 12px 16px;
+  text-decoration: none !important;
+  font-size: 22px;
+  border-radius: 50%;
+  user-select: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  z-index: 10;
+  line-height: 1;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.arrow.prev {
+  left: 15px;
+}
+
+.arrow.next {
+  right: 15px;
+}
+</style>
 
 <div class="slider-container">
   <!-- Slide 1 -->
