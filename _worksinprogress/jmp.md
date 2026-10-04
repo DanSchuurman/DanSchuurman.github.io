@@ -10,9 +10,39 @@ paperurl:
 ---
 Projections of the potential impacts of climate change on agricultural systems are crucial for developing climate policy. In a dynamic setting where outcomes are persistent, adjustments in response to climate change may be gradual rather than immediate. Using a dynamic panel model that accounts for feedback from lagged allocations, I identify considerable persistence in crop acreage allocations. This persistence has a first-order effect on how climate-change projections should be constructed. Future acreage allocations must account for the cumulative effect of climate along the entire transition path. Existing research often conducts projections using comparative-statics based on models that omit information on past acreage decisions. By disregarding the adjustment path, acreage projections under CMIP6 scenarios with static models overestimate acreage responses by 2050 by an average of 19% and 22% under moderate and high emissions scenarios.
 
+<div class="slider-container">
+  <!-- Slide 1 -->
+  <div class="slide" id="slide-1">
+    <img src="/assets/images/treatment.png" alt="GFDL-ESM4 Treatment">
+    <a href="#slide-5" class="arrow prev">&#10094;</a>
+    <a href="#slide-2" class="arrow next">&#10095;</a>
+  </div>
 
-<div style="display: flex; gap: 0; justify-content: center; align-items: flex-start; margin-top: 1.5rem; flex-wrap: nowrap;">
-  <img src="/images/ssp585_static_map_2023_2050.gif" alt="SSP5-8.5 Static projections" style="width: 33.3%; height: auto; margin-right: -10px; border-radius: 2px;">
-  <img src="/images/ssp585_dynamic_map_2023_2050.gif" alt="SSP5-8.5 Dynamic projections" style="width: 33.3%; height: auto; margin-right: -10px; border-radius: 2px;">
-  <img src="/images/ssp585_diff_map_2023_2050.gif" alt="Difference of Static and Dynamic projections" style="width: 33.3%; height: auto; margin-right: -10px; border-radius: 2px;">
+  <!-- Slide 2 -->
+  <div class="slide" id="slide-2">
+    <img src="/assets/images/pathway.png" alt="GFDL-ESM4 Full Static">
+    <a href="#slide-1" class="arrow prev">&#10094;</a>
+    <a href="#slide-3" class="arrow next">&#10095;</a>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide" id="slide-3">
+    <img src="/images/ssp585_static_map_2023_2050.gif" alt="SSP5-8.5 Static projections">
+    <a href="#slide-2" class="arrow prev">&#10094;</a>
+    <a href="#slide-4" class="arrow next">&#10095;</a>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="slide" id="slide-4">
+    <img src="/images/ssp585_dynamic_map_2023_2050.gif" alt="SSP5-8.5 Dynamic projections">
+    <a href="#slide-3" class="arrow prev">&#10094;</a>
+    <a href="#slide-5" class="arrow next">&#10095;</a>
+  </div>
+
+  <!-- Slide 5 -->
+  <div class="slide" id="slide-5">
+    <img src="/images/ssp585_diff_map_2023_2050.gif" alt="Difference of Static and Dynamic projections">
+    <a href="#slide-4" class="arrow prev">&#10094;</a>
+    <a href="#slide-1" class="arrow next">&#10095;</a>
+  </div>
 </div>
