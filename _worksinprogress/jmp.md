@@ -13,7 +13,7 @@ paperurl:
 /* Layout Containers */
 .top-section {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   align-items: flex-start;
   margin-bottom: 2rem;
 }
