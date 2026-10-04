@@ -13,14 +13,14 @@ Projections of the potential impacts of climate change on agricultural systems a
 <div class="slider-container">
   <!-- Slide 1 -->
   <div class="slide" id="slide-1">
-    <img src="/assets/images/treatment.png" alt="GFDL-ESM4 Treatment">
+    <img src="/images/treatment.png" alt="GFDL-ESM4 Treatment">
     <a href="#slide-5" class="arrow prev">&#10094;</a>
     <a href="#slide-2" class="arrow next">&#10095;</a>
   </div>
 
   <!-- Slide 2 -->
   <div class="slide" id="slide-2">
-    <img src="/assets/images/pathway.png" alt="GFDL-ESM4 Full Static">
+    <img src="/images/pathway.png" alt="GFDL-ESM4 Full Static">
     <a href="#slide-1" class="arrow prev">&#10094;</a>
     <a href="#slide-3" class="arrow next">&#10095;</a>
   </div>
