@@ -31,8 +31,8 @@ paperurl:
 
 /* Vertically Stacked Figures Column (~40%) */
 .figures-col {
-  flex: 0 0 38%;
-  width: 38%;
+  flex: 0 0 30%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 16px;
