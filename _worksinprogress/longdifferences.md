@@ -6,7 +6,7 @@ excerpt:
 date: 2026-08-01
 authors: 'with Dalia Ghanem and Felix Pretis'
 venue: 
-paperurl: 
+paperurl: https://arxiv.org/abs/2607.22028
 
 ---
 
