@@ -95,21 +95,25 @@ paperurl:
     </p>
   </div>
 
-  <div class="figures-col">
+ <!--  <div class="figures-col">
     <img src="/images/treatment.png" alt="GFDL-ESM4 Treatment">
     <img src="/images/pathway.png" alt="GFDL-ESM4 Full Static">
+  </div> -->
+  <div class="gif-card">
+    <img src="/images/ssp245_diff_map_2023_2050_nochange.gif" alt="Difference of Static and Dynamic projections">
+    <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5rem; text-align: center; line-height: 1.4;">
+        <strong>Figure:</strong> Static model overprojection of corn and soybean county acreage shares compared to dynamic model projections under SSP2-4.5 (2023–2050) where both projections are relative to a no-climate-change baseline.
+      </figcaption>
   </div>
 </div>
 
 <!-- Bottom Section: 3 GIFs side-by-side (33% each) -->
-<div class="gif-grid">
+<!-- <div class="gif-grid">
   <div class="gif-card">
     <img src="/images/ssp585_static_map_2023_2050.gif" alt="SSP5-8.5 Static projections">
   </div>
   <div class="gif-card">
     <img src="/images/ssp585_dynamic_map_2023_2050.gif" alt="SSP5-8.5 Dynamic projections">
   </div>
-  <div class="gif-card">
-    <img src="/images/ssp585_diff_map_2023_2050.gif" alt="Difference of Static and Dynamic projections">
-  </div>
-</div>
+
+</div> -->
