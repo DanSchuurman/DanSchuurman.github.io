@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="intro-wrapper">
   <div class="intro-photo">
-    <img src="/images/profile.png" alt="Daniel Schuurman">
+    <img src="/images/profile_2.jpeg" alt="Daniel Schuurman">
   </div>
   <div class="intro-text">
     <p>I am an agricultural economist and PhD candidate in the Agriculture and Resource Economics Department at UC Davis. My research is at the intersection of econometrics, environmental, and agricultural economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use.</p>
