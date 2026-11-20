@@ -4,17 +4,25 @@ title: ""
 excerpt: "About me"
 author_profile: false
 redirect_from:
-  - /about/
-  - /about.html
+- /about/
+- /about.html
 ---
 
+<div class="intro-wrapper">
+  <div class="intro-photo">
+    <img src="/images/profile.png" alt="Daniel Schuurman">
+  </div>
+  <div class="intro-text">
+    <p>I am an agricultural economist and PhD candidate in the Agriculture and Resource Economics Department at UC Davis. My research is at the intersection of econometrics, environmental, and agricultural economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use.</p>
 
-<br>
-I am an agricultural economist and PhD candidate in the Agriculture and Resource Economics Department at UC Davis. My research is at the intersection of econometrics, environmental, and agricultural economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use. 
+    <p>Before UC Davis, I earned my bachelor's degree at the University of Waterloo and my master's degree in Food, Agriculture and Resource Economics at the University of Guelph.</p>
 
-Before UC Davis, I earned my bachelor's degree at the University of Waterloo and my master's degree in Food, Agriculture and Resource Economics at the University of Guelph. 
+    <p><strong>I am on the job market in the 2026-2027 academic year.</strong></p>
+  </div>
+</div>
 
-**I am on the job market in the 2026-2027 academic year.**
+
+
 
 
 
