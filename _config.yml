@@ -212,6 +212,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+      nav: "sidebar_main"
       read_time: true
       comments: true
       share: true
