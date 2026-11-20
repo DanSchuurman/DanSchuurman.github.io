@@ -9,33 +9,45 @@
  *  - https://twitter.com/mmistakes
  *
 */
+/* --- Stacked Masthead: Large Name Above Navigation --- */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+.masthead__inner-wrap {
+  padding-top: 1.25em;
+  padding-bottom: 0.75em;
+}
 
-@import "reset";
-@import "base";
+/* Stack the site title and nav links vertically */
+.greedy-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+/* Make your name (site-title) larger and give it space below */
+.greedy-nav .site-title {
+  font-size: 2rem;         /* Adjust size as needed (default is ~1.25rem) */
+  font-weight: 700;
+  line-height: 1.2;
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
 
-@import "forms";
+/* Align the navigation tabs cleanly below the name */
+.greedy-nav .visible-links {
+  justify-content: center;
+}
 
-@import "page";
-@import "archive";
-@import "sidebar";
+/* Remove left padding on the first nav item so it lines up flush with your name */
+.greedy-nav .visible-links li:first-child a {
+  margin-left: 0;
+  padding-left: 0;
+}
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+/* Keep the mobile hamburger toggle positioned cleanly if needed */
+.greedy-nav button {
+  align-self: flex-end;
+  margin-top: -2.2rem;
+}
+
