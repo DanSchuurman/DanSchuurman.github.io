@@ -6,7 +6,7 @@ excerpt: 'Job market paper'
 date: 2026-09-01
 authors: 'Job market paper'
 venue: 
-paperurl: 
+paperurl: https://drive.google.com/file/d/1nDjCpNxyjKuN7aZNaQRKtjl6mX1sMSgy/view?usp=share_link
 ---
 
 <style>
