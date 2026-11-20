@@ -1,14 +1,7 @@
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -39,3 +32,60 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* --- Custom Centered Stacked Masthead --- */
+
+.masthead {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.masthead__inner-wrap {
+  display: block;
+  text-align: center;
+  padding-top: 1.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.masthead__title {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.masthead__title a {
+  font-size: 2.6rem;         /* Adjust size as needed (e.g., 2.4rem - 3.0rem) */
+  font-weight: 700;
+  color: #222;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.masthead__title a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.masthead__menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.masthead__menu .greedy-nav {
+  display: inline-flex;
+  justify-content: center;
+  width: auto;
+  background: transparent;
+}
+
+.masthead__menu .visible-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.masthead__menu .visible-links li a {
+  margin: 0 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
