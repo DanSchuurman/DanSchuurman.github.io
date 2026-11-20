@@ -8,24 +8,17 @@ redirect_from:
 - /about.html
 ---
 
-<div class="intro-wrapper">
-  <div class="intro-photo">
-    <img src="/images/profile_2.jpeg" alt="Daniel Schuurman">
-  </div>
-  <div class="intro-text">
-    <p>I am an agricultural economist and PhD candidate in the Agriculture and Resource Economics Department at UC Davis. My research is at the intersection of econometrics, environmental, and agricultural economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use.</p>
-
-    <p>Before UC Davis, I earned my bachelor's degree at the University of Waterloo and my master's degree in Food, Agriculture and Resource Economics at the University of Guelph.</p>
-
-    <p><strong>I am on the job market in the 2026-2027 academic year.</strong></p>
+<!-- Intro Section Wrapper (matches your Research section alignment) -->
+<div style="width: 100vw; position: relative; left: calc(-1 * (50vw - 50%)); border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; padding: 2rem 0; box-sizing: border-box;">
+  <div style="max-width: 1100px; margin: 0 auto; padding: 0 2rem; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2.5rem;">
+    <img src="/images/profile_2.jpeg" alt="Daniel Schuurman" style="width: 220px; height: 260px; flex-shrink: 0; object-fit: cover; object-position: center top; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); margin: 0;">
+    <div style="flex: 1; min-width: 280px;">
+      <p style="margin-top: 0;">I am an agricultural economist and PhD candidate in the Agriculture and Resource Economics Department at UC Davis. My research is at the intersection of econometrics, environmental, and agricultural economics. I am currently focusing on the estimation and projection of land use responses to environmental change, methods for empirically measuring adaptation, and health externalities associated with pesticide use.</p>
+      <p>Before UC Davis, I earned my bachelor's degree at the University of Waterloo and my master's degree in Food, Agriculture and Resource Economics at the University of Guelph.</p>
+      <p style="margin-bottom: 0;"><strong>I am on the job market in the 2026-2027 academic year.</strong></p>
+    </div>
   </div>
 </div>
-
-
-
-
-
-
 
 <!-- Research Section wrapper (aligned with main content, no weird left shift) -->
 <div style="width: 100vw; position: relative; left: calc(-1 * (50vw - 50%)); background-color: #ffffff; z-index: 10; padding: 2rem 0; box-sizing: border-box;">
@@ -126,4 +119,4 @@ redirect_from:
     </section>
 
   </div> 
-</div> 
+</div>
