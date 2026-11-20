@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<style>
+  /* Centered content column shared by both sections */
+  .home-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+
+  /* Section 1: about / photo panel */
+  .home-top {
+    background: #f5f6f7;
+    padding: 3rem 0;
+  }
+  .home-top .home-inner {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .home-photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: 0 0 auto;
+  }
+  .home-top h1 { margin: 0 0 0.25rem; }
+  .home-tagline { margin: 0 0 1rem; color: #6b7280; }
+  .home-top p { margin: 0 0 1em; }
+
+  /* Section 2: research, publications, education */
+  .home-research {
+    background: #ffffff;
+    padding: 3rem 0;
+  }
+  .home-research h2:first-child { margin-top: 0; }
+
+  /* Stack photo above text on small screens */
+  @media (max-width: 700px) {
+    .home-top .home-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>
+
+{{ content }}
