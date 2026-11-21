@@ -20,8 +20,8 @@ paperurl: https://drive.google.com/file/d/1nDjCpNxyjKuN7aZNaQRKtjl6mX1sMSgy/view
 
 /* Abstract Column (~60%) */
 .abstract-col {
-  flex: 0 0 55%;
-  width: 55%;
+  flex: 0 0 65%;
+  width: 65%;
   line-height: 1.6;
 }
 
@@ -31,11 +31,11 @@ paperurl: https://drive.google.com/file/d/1nDjCpNxyjKuN7aZNaQRKtjl6mX1sMSgy/view
 
 /* Vertically Stacked Figures Column (~40%) */
 .figures-col {
-  flex: 0 0 30%;
-  width: 30%;
+  flex: 0 0 20%;
+  width: 20%;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .figures-col img {
