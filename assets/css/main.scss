@@ -35,14 +35,14 @@
 
 /* --- Custom Centered Stacked Masthead --- */
 .masthead {
-  border-bottom: none; /* Removes the duplicate line below the nav */
+  border-bottom: none;
 }
 
 .masthead__inner-wrap {
   display: block;
   text-align: center;
   padding-top: 1.75rem;
-  padding-bottom: 0.05rem;
+  padding-bottom: 0;
 }
 
 .masthead__title {
@@ -68,9 +68,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  border-top: 1px solid #e8e8e8; /* Adds the line between your name and nav buttons */
-  padding-top: 0.75rem;           /* Gives the nav links breathing room below the line */
-  margin-top: 0.75rem;            /* Gives your name breathing room above the line */
+  border-top: 1px solid #e8e8e8; /* Line between your name and nav buttons */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .masthead__menu .greedy-nav {
@@ -78,6 +79,7 @@
   justify-content: center;
   width: auto;
   background: transparent;
+  min-height: auto;       /* Removes default tall nav bar height */
 }
 
 .masthead__menu .visible-links {
@@ -88,14 +90,14 @@
 
 .masthead__menu .visible-links li a {
   margin: 0 1rem;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0.25rem 0;     /* Removes tall top/bottom padding around links */
 }
 
 /* --- Full Single-Column Page Width (Remove Empty Sidebar/TOC Space) --- */
 
 #main {
   max-width: 1280px;
+  margin-top: 0.5rem;     /* Closes the gap between masthead and page content */
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
@@ -106,10 +108,11 @@
   float: none;
   width: 100%;
   max-width: 100%;
+  margin-top: 0;          /* Removes theme's default 2em top margin on .page */
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
-  padding-right: 0;   /* Reclaims the 200px-300px empty sidebar space on the right */
+  padding-right: 0;
 }
 
 #main .page__inner-wrap,
@@ -117,6 +120,7 @@
   float: none;
   width: 100%;
   max-width: 100%;
+  margin-top: 0;
   padding-right: 0;
   margin-right: 0;
 }
