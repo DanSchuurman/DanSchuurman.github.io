@@ -89,3 +89,32 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+/* --- Full Single-Column Page Width (Remove Empty Sidebar/TOC Space) --- */
+
+#main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#main .page {
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;   /* Reclaims the 200px-300px empty sidebar space on the right */
+}
+
+#main .page__inner-wrap,
+#main .page__content {
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0;
+  margin-right: 0;
+}
