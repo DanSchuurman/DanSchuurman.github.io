@@ -17,13 +17,13 @@ redirect_from:
   </div>
 </div>
 
-## Research in Progress
+<h2 style="font-size: 1.25em; font-weight: bold;">Research in Progress</h2>
 
 {% assign papers = site.worksinprogress | where_exp: "p", "p.title" | sort: "date" | reverse %}
 {% for paper in papers %}
 <details style="margin-bottom: 1.5rem;">
   <summary style="cursor: pointer;">
-    <strong>{{ paper.title }}</strong>
+    {{ paper.title }}
     {% if paper.paperurl %}
       — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
     {% endif %}
@@ -43,13 +43,13 @@ redirect_from:
 </details>
 {% endfor %}
 
-## Publications
+<h2 style="font-size: 1.25em; font-weight: bold;">Publications</h2>
 
 {% assign pubs = site.publications | where_exp: "p", "p.title" | sort: "date" | reverse %}
 {% for paper in pubs %}
 <details style="margin-bottom: 1.5rem;">
   <summary style="cursor: pointer;">
-    <strong>{{ paper.title }}</strong>
+    {{ paper.title }}
     {% if paper.paperurl %}
       — <a href="{{ paper.paperurl }}" target="_blank">[link]</a>
     {% endif %}
@@ -69,8 +69,8 @@ redirect_from:
 </details>
 {% endfor %}
 
-## Education
+<h2 style="font-size: 1.25em; font-weight: bold;">Education</h2>
 
-* PhD, University of California, Davis (Expected 2027)
-* MSc, University of Guelph, 2021
-* BSc, University of Waterloo, 2019
+- PhD, University of California, Davis (Expected 2027)
+- MSc, University of Guelph, 2021
+- BSc, University of Waterloo, 2019
