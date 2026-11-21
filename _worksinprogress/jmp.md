@@ -102,7 +102,7 @@ paperurl: https://drive.google.com/file/d/1nDjCpNxyjKuN7aZNaQRKtjl6mX1sMSgy/view
   <div class="gif-card">
     <img src="/images/ssp245_diff_map_2023_2050_nochange.gif" alt="Difference of Static and Dynamic projections">
     <figcaption style="font-size: 0.85em; color: #555; margin-top: 0.5rem; text-align: center; line-height: 1.4;">
-        <strong>Figure:</strong> Static model overprojection of corn and soybean county acreage shares compared to dynamic model projections under SSP2-4.5 (2023–2050) where both projections are relative to a no-climate-change baseline.
+        <strong>Figure:</strong> Static model overprojection of corn and soybean county acreage shares compared to dynamic model projections under SSP2-4.5 (2023–2050) where projections are calculated relative to a no-climate-change baseline.
       </figcaption>
   </div>
 </div>
